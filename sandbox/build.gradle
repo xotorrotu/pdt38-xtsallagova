@@ -1,3 +1,5 @@
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "my1stProg"
+mainClassName = "ru.std.sandbox.myFirstProg"
+
+
