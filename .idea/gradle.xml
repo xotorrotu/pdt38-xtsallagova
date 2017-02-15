@@ -4,6 +4,17 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lesson1" />
+        <option name="gradleHome" value="C:/gradle/gradle-3.3/bin" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lesson1" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
         <option name="gradleHome" value="C:/gradle/gradle-3.3" />
         <option name="gradleJvm" value="#JAVA_HOME" />
