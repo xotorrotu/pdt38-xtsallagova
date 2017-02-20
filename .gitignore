@@ -17,5 +17,9 @@ gradle-app.setting
 #ignore project files
 *.class
 
+#ignore project sandbox
+/sandbox/*
+
+
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties

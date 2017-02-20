@@ -1,6 +1,6 @@
 package edu.stru.lesson.one;
 
-public class HomeworkPartTwo {
+public class HomeworkProg {
 
 	public static void main (String[] args){
 
