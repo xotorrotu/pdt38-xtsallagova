@@ -3,3 +3,15 @@ apply plugin: 'application'
 mainClassName = "edu.stru.lesson.one.HomeworkProg"
 
 
+repositories{
+    mavenCentral()
+
+}
+
+dependencies{
+    compile 'org.testng:testng:6.10'
+
+}
+
+
+

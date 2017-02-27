@@ -1,5 +1,16 @@
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "ru.std.sandbox.myFirstProg"
+mainClassName = "ru.std.sandbox.MyFirstProg"
+
+repositories{
+    mavenCentral()
+
+}
+
+dependencies{
+    compile 'org.testng:testng:6.10'
+
+}
+
 
 

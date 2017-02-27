@@ -8,6 +8,7 @@ public class HomeworkProg {
         Point p2 = new Point(8,1);
 
         System.out.println("Расстояние между точками A("+p1.x+";"+p1.y+") и B("+p2.x+";"+p2.y+") = "+p1.distance(p2));
+
 	}
 
 }
