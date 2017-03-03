@@ -41,8 +41,36 @@ public class ContactsHelper extends HelperBase{
         type(By.name("middlename"), personDataName.getMiddlename());
         type(By.name("lastname"), personDataName.getLastname());
 
-
     }
+
+    public void selectPerson(){
+        if (!wd.findElement(By.name("selected[]")).isSelected()) {
+            click(By.name("selected[]"));
+        }
+    }
+
+    public void initPersonModification(){
+
+       click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img"));
+     };
+
+
+    public void submitPersonModification() {
+        click(By.name("update"));
+    }
+
+    public void submitPersonDeletion() {
+        click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
+    }
+
+    //Для закрытия диалогового окна (alert), которое появляется при удалении контакта
+    public void closeSubmitDelWindow(){
+        wd.switchTo().alert().accept();
+    }
+
+
+
+
 
 
 }
