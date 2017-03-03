@@ -16,4 +16,16 @@ public class NavigationHelper extends HelperBase{
     public void gotoGroupPage() {
        click(By.linkText("groups"));
     }
+
+    //переход на страницу создания нового пользователя add new
+    public void gotoNewPersonPage() {
+        click(By.linkText("add new"));
+    }
+
+    //переход на домашнюю страницу home
+    public void gotoHomePage() {
+        click(By.linkText("home"));
+    }
+
+
 }
