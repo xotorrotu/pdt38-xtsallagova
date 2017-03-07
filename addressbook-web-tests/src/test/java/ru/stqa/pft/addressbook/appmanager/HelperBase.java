@@ -21,8 +21,16 @@ public class HelperBase {
 
     protected void type(By locator, String text) {
         click(locator);
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(text);
+        if (text != null){
+            String existinngText = wd.findElement(locator).getAttribute("value");
+
+            if (!text.equals(existinngText)){
+                wd.findElement(locator).clear();
+                wd.findElement(locator).sendKeys(text);
+            }
+
+        }
+
     }
 
 
